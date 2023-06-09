@@ -1,11 +1,8 @@
 import React from "react";
 
-
 import cv from "../assets/download/DEHHANI_Yassine_CV_FR.pdf";
 
 const Navbar = ({ type }) => {
-
-	
 	return (
 		<div className="navigation">
 			<div className="navigation__wrapper wrapper--large">
@@ -52,7 +49,7 @@ const Navbar = ({ type }) => {
 					<a
 						id="download-cv-button"
 						className="navigation__cta button"
-						href={type === "home" ? { cv } : "/"}
+						href={type === "home" ? cv : "/"}
 						download={type === "home" ? "DEHHANI_Yassine_CV" : null}
 					>
 						{type === "home" ? "Download CV" : "Back Home"}

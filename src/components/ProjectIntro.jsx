@@ -3,13 +3,13 @@ import React from "react";
 const ProjectIntro = ({ title, subtitle, img }) => {
 	return (
 		<header className="header">
-			<div className="introduction wrapper--large">
-				<h1 className="introduction__content">
+			<div className="project_introduction project_wrapper--large">
+				<h1 className="project_introduction__content">
 					{/* <span class="introduction__content-el introduction__content-el--name">Yassine DEHHANI</span> */}
-					<span className="introduction__content-el introduction__content-el--description">
+					<span className="project_introduction__content-el project_introduction__content-el--description">
 						{title}
 					</span>
-					<span className="introduction__content-el introduction__content-el--job">
+					<span className="project_introduction__content-el project_introduction__content-el--job">
 						{subtitle}
 					</span>
 				</h1>
@@ -17,7 +17,7 @@ const ProjectIntro = ({ title, subtitle, img }) => {
 					<img src={img} alt="" />
 				</div>
 				<svg
-					className="introduction__arrow"
+					className="project_introduction__arrow"
 					xmlns="http://www.w3.org/2000/svg"
 					xmlnsXlink="http://www.w3.org/1999/xlink"
 					version="1.1"

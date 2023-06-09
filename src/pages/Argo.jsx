@@ -13,10 +13,14 @@ import {
 import introImg from "../assets/img/argo_big.png";
 import roadmapImg from "../assets/img/argo/roadmap.png";
 import vidUrl from "../assets/video/ARGO_Presentation.mp4";
+
 import sliderImg1 from "../assets/img/argo/jetson_nano.png";
 import sliderImg2 from "../assets/img/argo/pixhawk.png";
 import sliderImg3 from "../assets/img/argo/rplidar.png";
 import sliderImg4 from "../assets/img/argo/4kcamera.png";
+import sliderImg5 from "../assets/img/argo/4in1esc.png";
+import sliderImg6 from "../assets/img/argo/battery.png";
+import sliderImg7 from "../assets/img/argo/chassis.png";
 
 const data = [
 	{
@@ -46,6 +50,27 @@ const data = [
 		text:
 			"A high resolution camera used to capture images and video of the drone’s surroundings.",
 		img: sliderImg4,
+	},
+	{
+		header1: "4 in 1",
+		header2: "ESC",
+		text:
+			"A powerful and efficient electronic speed controller that combines four ESCs into one compact unit.",
+		img: sliderImg5,
+	},
+	{
+		header1: "Battery",
+		header2: "",
+		text:
+			"A LiPO Battery (7000mAh), which provides the necessary energy to run the drone's components and motors.",
+		img: sliderImg6,
+	},
+	{
+		header1: "Chassis",
+		header2: "",
+		text:
+			"A sturdy and lightweight carbon fiber frame designed for multirotor drones. It features a spacious design that allows for easy installation and maintenance of the drone's components.",
+		img: sliderImg7,
 	},
 ];
 
